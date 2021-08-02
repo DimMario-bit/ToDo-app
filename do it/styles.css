@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    background: rgb(19, 19, 19);
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+main{
+   margin: 120px auto;
+   max-width: 400px;
+   width: 100%;
+   border-radius: 5px;
+   padding: 25px;
+    
+}
+main header{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.container {
+    height: 45px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+#inputField {
+    width: 80%;
+    height: 100%;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    background: rgba(101, 156, 160, 0.747);
+}
+
+#addToDo {
+    width: 50px;
+    height: 100%;
+    border: 1px solid black;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background: rgba(101, 156, 160, 0.747);
+}
+
+.list-styling {
+    list-style: none;
+    height: 45px;
+    line-height: 45px;
+    position: relative;
+    border-radius: 3px;
+    background: rgba(175, 222, 228, 0.973);
+    padding: 0 15px;
+    margin-bottom: 8px;
+    cursor: default;
+    font-size: 20px
+}
+
+.to-dos {
+    margin-top: 25px;
+}
